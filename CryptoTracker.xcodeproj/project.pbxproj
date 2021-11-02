@@ -13,6 +13,9 @@
 		361BA767273093D700568F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361BA765273093D700568F79 /* Main.storyboard */; };
 		361BA769273093DC00568F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361BA768273093DC00568F79 /* Assets.xcassets */; };
 		361BA76C273093DC00568F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361BA76A273093DC00568F79 /* LaunchScreen.storyboard */; };
+		361BA7742730944B00568F79 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BA7732730944B00568F79 /* APICaller.swift */; };
+		361BA776273098E200568F79 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BA775273098E200568F79 /* CryptoTableViewCell.swift */; };
+		361BA77827309CF400568F79 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361BA77727309CF400568F79 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		361BA768273093DC00568F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361BA76B273093DC00568F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		361BA76D273093DC00568F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361BA7732730944B00568F79 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		361BA775273098E200568F79 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		361BA77727309CF400568F79 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				361BA768273093DC00568F79 /* Assets.xcassets */,
 				361BA76A273093DC00568F79 /* LaunchScreen.storyboard */,
 				361BA76D273093DC00568F79 /* Info.plist */,
+				361BA7732730944B00568F79 /* APICaller.swift */,
+				361BA775273098E200568F79 /* CryptoTableViewCell.swift */,
+				361BA77727309CF400568F79 /* Models.swift */,
 			);
 			path = CryptoTracker;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				361BA764273093D700568F79 /* ViewController.swift in Sources */,
 				361BA760273093D700568F79 /* AppDelegate.swift in Sources */,
 				361BA762273093D700568F79 /* SceneDelegate.swift in Sources */,
+				361BA77827309CF400568F79 /* Models.swift in Sources */,
+				361BA776273098E200568F79 /* CryptoTableViewCell.swift in Sources */,
+				361BA7742730944B00568F79 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
